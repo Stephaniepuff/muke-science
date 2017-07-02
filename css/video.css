@@ -1,0 +1,534 @@
+.nav{
+	margin: 0 auto;
+	width:1200px;
+	height:45px;
+	color:#707070;
+	vertical-align: middle;
+	font-size: 13px;
+	line-height: 45px;
+}
+.banner{
+	font-size: 16px;
+	margin: 0 auto;
+}
+.banner-top{
+	font-size: 13px;
+	width: 100%;
+	background-color: #2D2D2D;
+}
+
+.welcome,.date{
+	display: inline-block;
+	margin: 0 auto;
+	
+}
+.favourite {
+	padding-left: 30px;
+	border-left: 1px solid #707070;
+}
+.date-text{
+	padding-right: 30px;
+}
+.banner-middle{
+	background-color: red;
+	width: 1200px;
+	height:120px;
+	margin: 0 auto;
+}
+.banner-bottom{
+	height:55px;
+	background-color: #34B5EB;
+	border-top: 1px solid #EEEEEE;
+	border-bottom: 1px solid #EEEEEE;
+}
+.menu-wrapper{
+	/*display: inline-block;*/
+	color: #fff;
+	width: 1200px;
+	margin: 0 auto;
+	height: 55px;
+	line-height: 55px;
+}
+.menu-item a {
+	color:#fff;
+}
+.menu-item:before{
+	content: "/";
+	margin:0 20px;
+	color: #fff;
+}   
+.menu-item:first-child:before{
+	display:none;
+}   
+.menu{
+
+	display: inline-block;
+	width: 60%;
+}
+.menu-item{
+	font-size: 16px;
+	display: inline-block;
+}
+.search{
+	font-size: 12px;
+	background: #F0F0F0;
+	border-radius: 2em;
+	width:235px;
+	height: 30px;
+	text-indent: 1em;
+}
+.main-video-wrapper{
+	width: 100%;
+	margin: 0 auto;
+	background-color: #F1F2F3;
+}
+.video{
+	width: 1200px;
+	margin: 0 auto;
+}
+.video-player{
+	width:840px;
+	/*height: 530px;*/
+}
+.comment-wrapper{
+	margin: 0 auto;
+	width: 1200px;
+	margin-top: 10px;
+}
+.comment{
+float: left;
+	width:840px;
+}
+.popularize{
+	width:340px;
+	background: #fff;
+}
+.playlist {
+	width: 360px;
+	background-color: #333333;
+	height: 630px;
+	margin-top: 10px;
+	overflow-y:auto;
+}
+.video-title-marked{
+	color: #5BACE1;
+}
+.share-number{
+	display: inline-block;
+}
+.footer{
+	width: 100%;
+	height:45px ;
+	line-height: 45px;
+	text-align: center;
+	color: #d2d2d2;
+	background-color: #000;
+	margin-top: 45px;
+}
+.wrapper{
+    overflow:hidden;
+}
+.tab-title,.popularize-title{
+    width:100%;
+    border-bottom: 1px solid #e1e1e1;
+    background: #fff;
+}
+.tab-title li{
+    float:left;
+    width:130px;
+    text-align: center;
+}
+.tab-title li a{
+width: 100%;
+float:left;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 16px;
+    color: #707070;
+    cursor: pointer;
+}
+
+.popularize-title span{
+	float:left;
+    padding: 20px 0 20px 15px;
+    text-align: center;
+    font-size: 16px;
+    color: #707070;
+    cursor: pointer;
+    border-bottom: 3px solid #fff;
+
+
+}
+.tab-content{
+	width:840px;
+    overflow: hidden;
+    background: #fff;
+}
+.tab-content>div{
+    /*text-align: center;*/
+    height: 650px;
+    width:840px;
+}
+.tab-title li.select a{
+font-weight: bold;
+    color:#29b5f0;
+  	border-bottom: 3px solid #29b5f0;
+}
+.popularize-title{
+	border-bottom: 1px solid #D9D9D9;
+}
+
+
+.video-title{
+padding: 0 10px;
+height: 55px;
+line-height: 55px;
+background: #fff;
+margin-top: 10px;
+font-size: 14px;
+}
+.share-number{
+color: #939393;
+
+}
+.share-number i{
+width: 30px;
+display: inline-block;
+
+}
+.share-number i img{
+width: 100%;
+margin-top:15px;
+}
+
+
+.playTitle{
+font-size: 14px;
+color:#dcdcdc;
+padding:15px 0;
+margin: 0 20px;
+border-bottom: 1px solid #dcdcdc;
+}
+.playBar{
+font-size: 14px;
+color:#dcdcdc;
+padding:15px 20px;
+}
+
+
+.playLeftList{
+width: 100%;
+
+}
+.playLeftList li{
+float: left;
+width: 100%;
+
+}
+.playLeftList li:hover,.playLeftList li.active{
+background:#1b1b1b;
+}
+.playLeftList li:hover a>i,.playLeftList li.active a>i{
+color: #1b1b1b;
+}
+.playLeftList li:hover a>i:before,.playLeftList li.active a>i:before{
+content: "";
+position: absolute;
+top: 25px;
+left: 0;
+width: 12px;
+height: 15px;
+background:url(../images/4.5.png) no-repeat;
+background-size: 100% 100%;
+}
+
+.playLeftList li a{
+float: left;
+width:320px;
+padding: 0 20px;
+}
+.playLeftList li a>i{
+position: relative;
+	float: left;
+	width: 12px;
+	padding: 25px 0;
+	font-size: 14px;
+	font-style: normal;
+	color: #a0a0a0;
+
+}
+.PlayR{
+float: left;
+width:308px;
+}
+.playImg{
+float: left;
+width: 85px;
+height: 50px;
+margin: 10px 10px;
+overflow: hidden;
+}
+.playImg img{
+display: block;
+width: 100%;
+}
+.playRight{
+float: left;
+width:200px;
+padding-top: 15px;
+
+}
+.playRight p{
+font-size: 14px;
+color: #dcdcdc;
+line-height: 22px;
+ overflow: hidden;
+ white-space:nowrap;
+ text-overflow:ellipsis;
+  white-space: nowrap;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    -webkit-text-overflow: ellipsis;
+}
+.playRight strong{
+display: block;
+width: 100%;
+font-size: 14px;
+color: #a0a0a0;
+}
+.playRight strong b{
+display: inline-block;
+font-weight: normal;
+}
+
+
+.palyBottom{
+padding: 10px 20px;
+
+background: #fff;
+}
+.palyBottom span{
+	font-size: 14px;
+	color: #585858;
+	margin-left: 10px;
+}
+.palyBottom span i{
+	display: inline-block;
+	width: 16px;
+	margin-right: 5px;
+}
+.palyBottom span i img{
+width: 100%;
+}
+.palyBottom span i.xia{
+transform:rotate(180deg);
+-ms-transform:rotate(180deg);
+-moz-transform:rotate(180deg);
+-webkit-transform:rotate(180deg);
+-o-transform:rotate(180deg);
+}
+
+
+
+.pinglun{
+width: 100%;
+padding:35px 20px 10px 20px;
+}
+.pinglunList{
+width: 100%;
+padding:20px 20px 10px 20px;
+}
+.pinglun span,.pinglunList li>span{
+float: left;
+width: 60px;
+height: 60px;
+overflow: hidden;
+border-radius: 50%;
+-webkit-border-radius: 50%;
+margin: 0 5px 0 0;
+}
+.pinglun span img,.pinglunList li span img{
+display: block;
+width: 100%;
+}
+.pinglun>div,.pinglunList li>div{
+float: left;
+width: 730px;
+
+}
+.pinglun>div p strong{
+font-size: 14px;
+color: #29b5f0;
+font-weight: normal;
+}
+.pinglun>div p b{
+
+font-size: 14px;
+color: #98949b;
+font-weight: normal;
+}
+.pinglun>div textarea{
+width: 700px;
+font-size: 14px;
+line-height: 22px;
+color: #333;
+padding: 10px 10px;
+margin-top: 10px;
+border: 1px solid #d6dade;
+}
+
+.subBtn{
+float: right;
+width: 82px;
+height: 30px;
+line-height: 30px;
+text-align: center;
+border: 1px solid #dadada;
+background: #f2f2f2;
+font-size: 14px;
+color: #313131;
+margin-top: 10px;
+margin-right: 4px;
+cursor: pointer;
+}
+
+.pinglunquan{
+padding:0 20px ;
+}
+
+.pinglunTitle{
+height: 40px;
+line-height: 40px;
+border-bottom: 1px solid #e9e9eb;
+}
+.pinglunTitle strong{
+float: left;
+font-size: 16px;
+color: #29b5f0;
+}
+.pinglunTitle strong small{
+color: #a0a0a0;
+}
+.pinglunTitle a{
+
+float: right;
+color: #797979;
+text-decoration: underline;
+cursor: pointer;
+}
+
+
+.time{
+    font-size: 14px;
+    color: #29b5f0;
+    font-weight: normal;
+}
+
+.time small{
+    color: #a0a0a0;
+    margin-left: 10px;
+}
+
+.pingluntext{
+font-size: 14px;
+color: #333;
+line-height: 25px;
+ overflow: hidden;
+ white-space:nowrap;
+ text-overflow:ellipsis;
+  white-space: nowrap;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    -webkit-text-overflow: ellipsis;
+}
+
+.pinglunList li{
+float: left;
+border-bottom: 1px solid #e9e9eb;
+padding: 10px 0;
+}
+#zan{
+	padding: 8px 0;
+}
+#zan span{
+margin:0 10px 0 0;
+cursor: pointer;
+}
+
+#zan a{
+width: 24px;
+cursor: pointer;
+}
+.tuijianList{
+padding-bottom: 10px;
+}
+.tuijianList li{
+	float: left;
+	width: 100%;
+}
+.tuijianList li a{
+	float:left;
+	width:310px;
+	padding:10px 15px 0 15px;
+	cursor: pointer;
+}
+.tuijianList li a span{
+float: left;
+width: 125px;
+height: 75px;
+overflow: hidden;
+}
+.tuijianList li a span img{
+display: block;
+width: 100%;
+}
+.tuijianList li a>div{
+float: right;
+width: 170px;
+}
+.tuijianList li a>div h3{
+font-size: 14px;
+color: #707070;
+ overflow: hidden;
+ white-space:nowrap;
+ text-overflow:ellipsis;
+  white-space: nowrap;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    -webkit-text-overflow: ellipsis;
+    margin-bottom: 10px;
+}
+.tuijianList li a>div p{
+font-size: 14px;
+color: #a0a0a0;
+
+}
+
+
+.pinglunTitleBottom{
+height: 24px;
+line-height: 24px;
+background: #fefec6;
+border: 1px solid #fee17d;
+font-size: 14px;
+color: #29b5f0;
+padding: 0 0 0 10px;
+}
+.pinglunTitleBottom a{
+font-size: 14px;
+color: #29b5f0;
+text-decoration: underline;
+}
+/*演讲详述*/
+.des{
+	padding: 20px;
+}
+.des p{
+	margin: 20px;
+}
+.p1{
+	width: 800px;
+}
+.p1 p{
+	color: #707070;
+}

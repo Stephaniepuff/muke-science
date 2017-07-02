@@ -1,0 +1,188 @@
+.banner-pic{
+	width: 100%;
+	height:233px;
+	background: url(../images/communitybanner.png) no-repeat;
+}
+.banner-inner{
+	width: 1200px;
+	margin:0 auto;
+}
+.banner-pic-inner{
+	margin-top: 150px;
+}
+.cover{
+	width: 1200px;
+	margin:0 auto;
+	background-color: #fff;
+}
+.comment{
+	padding: 20px;
+}
+/*帖子*/
+.author-wrapper{
+	width: 200px;
+}
+.content-wrapper{
+	width: 900px;
+	padding-top: 20px;
+}
+.content{
+	/*border-bottom:1px solid #2FB0E9;*/
+	margin-right: 80px;
+	padding-bottom: 30px;
+}
+.author{
+	width: 80px;
+	margin: 0 auto;
+}
+.author-wrapper h4{
+	text-align: center;
+}
+.author img{
+	width: 80px;
+	height: 80px;
+	border-radius: 40px;
+	text-align:center;
+}
+.comment-title{
+	padding: 0 20px;
+	height: 80px;
+	line-height: 80px;
+	border-bottom:1px solid #EBEBEB;
+	font-size:16px;
+}
+.comment-title h3{
+	display: inline-block;
+}
+.comment-title a{
+    width: 200px;
+    height: 35px;
+    line-height: 35px;
+    background-color: #40BAE2;
+    color: #fff;
+    border-radius: 8px;
+    display: inline-block;
+    text-align: center;
+   margin-top: 23px;
+}
+.content-wrapper p{
+	text-indent: 2em;
+	padding-top: 10px;
+}
+
+
+/*我要发布*/
+.pinglun{
+width: 100%;
+padding:35px 20px 10px 20px;
+}
+.pinglunList{
+width: 100%;
+padding:20px 20px 10px 20px;
+}
+.pinglunList li {
+
+    float: left;
+    border-bottom: 1px solid #e9e9eb;
+    padding: 10px 0;
+}
+.pinglun span,.pinglunList li>span{
+float: left;
+width: 60px;
+height: 60px;
+overflow: hidden;
+border-radius: 50%;
+-webkit-border-radius: 50%;
+margin: 0 5px 0 0;
+}
+.pinglun span img,.pinglunList li span img{
+display: block;
+width: 100%;
+}
+.pinglun>div,.pinglunList li>div{
+float: left;
+width: 730px;
+
+}
+.pinglun>div p strong{
+font-size: 14px;
+color: #29b5f0;
+font-weight: normal;
+}
+.pinglun>div p b{
+
+font-size: 14px;
+color: #98949b;
+font-weight: normal;
+}
+.pinglun>div textarea{
+width: 700px;
+font-size: 14px;
+line-height: 22px;
+color: #333;
+padding: 10px 10px;
+margin-top: 10px;
+border: 1px solid #d6dade;
+}
+.pingluntext {
+    font-size: 14px;
+    color: #333;
+    line-height: 25px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    -webkit-text-overflow: ellipsis;
+}
+.time {
+    font-size: 14px;
+    color: #29b5f0;
+    font-weight: normal;
+}
+.time small {
+    color: #a0a0a0;
+    margin-left: 10px;
+}
+#zan {
+    padding: 8px 0;
+}
+.palyBottom {
+    padding: 10px 20px;
+    background: #fff;
+}
+#zan span {
+    margin: 0 10px 0 0;
+    cursor: pointer;
+}
+video.css:310
+.palyBottom span {
+    font-size: 14px;
+    color: #585858;
+    margin-left: 10px;
+}
+.palyBottom span i {
+    display: inline-block;
+    width: 16px;
+    margin-right: 5px;
+}
+.subBtn {
+    float: right;
+    width: 82px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid #dadada;
+    background: #f2f2f2;
+    font-size: 14px;
+    color: #313131;
+    margin-top: 10px;
+    margin-right: 4px;
+    cursor: pointer;
+}
+
+
+
+
+
